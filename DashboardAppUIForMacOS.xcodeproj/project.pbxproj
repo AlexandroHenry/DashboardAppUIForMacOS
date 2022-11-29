@@ -11,6 +11,11 @@
 		AA9991062935FCC500435240 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9991052935FCC500435240 /* ContentView.swift */; };
 		AA9991082935FCC800435240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9991072935FCC800435240 /* Assets.xcassets */; };
 		AA99910C2935FCC800435240 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA99910B2935FCC800435240 /* Preview Assets.xcassets */; };
+		AA9991152935FD1000435240 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9991142935FD1000435240 /* Home.swift */; };
+		AA9991172936140500435240 /* Recent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9991162936140500435240 /* Recent.swift */; };
+		AA99911929361B4200435240 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99911829361B4200435240 /* BarGraph.swift */; };
+		AA99911B29361B6D00435240 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99911A29361B6D00435240 /* Analytics.swift */; };
+		AA99911D2936285200435240 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99911C2936285200435240 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		AA9991072935FCC800435240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9991092935FCC800435240 /* DashboardAppUIForMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DashboardAppUIForMacOS.entitlements; sourceTree = "<group>"; };
 		AA99910B2935FCC800435240 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA9991142935FD1000435240 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AA9991162936140500435240 /* Recent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recent.swift; sourceTree = "<group>"; };
+		AA99911829361B4200435240 /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+		AA99911A29361B6D00435240 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		AA99911C2936285200435240 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,8 @@
 		AA9991022935FCC500435240 /* DashboardAppUIForMacOS */ = {
 			isa = PBXGroup;
 			children = (
+				AA9991132935FD0400435240 /* View */,
+				AA9991122935FCFF00435240 /* Model */,
 				AA9991032935FCC500435240 /* DashboardAppUIForMacOSApp.swift */,
 				AA9991052935FCC500435240 /* ContentView.swift */,
 				AA9991072935FCC800435240 /* Assets.xcassets */,
@@ -67,6 +79,25 @@
 				AA99910B2935FCC800435240 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA9991122935FCFF00435240 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA9991162936140500435240 /* Recent.swift */,
+				AA99911A29361B6D00435240 /* Analytics.swift */,
+				AA99911C2936285200435240 /* History.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA9991132935FD0400435240 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA9991142935FD1000435240 /* Home.swift */,
+				AA99911829361B4200435240 /* BarGraph.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA99911929361B4200435240 /* BarGraph.swift in Sources */,
+				AA9991172936140500435240 /* Recent.swift in Sources */,
+				AA99911D2936285200435240 /* History.swift in Sources */,
+				AA99911B29361B6D00435240 /* Analytics.swift in Sources */,
 				AA9991062935FCC500435240 /* ContentView.swift in Sources */,
+				AA9991152935FD1000435240 /* Home.swift in Sources */,
 				AA9991042935FCC500435240 /* DashboardAppUIForMacOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
